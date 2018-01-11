@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Mjy5QCLMEeOxrP8eZxs1Rw" name="model">
+  <packagedElement xmi:type="uml:Component" xmi:id="_P20JMCLMEeOxrP8eZxs1Rw" name="neuronal-network-core"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_SyDyUCLMEeOxrP8eZxs1Rw" name="neuronal-network-metamodel"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_VdYJECLMEeOxrP8eZxs1Rw" name="neuronal-network-kohonen"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_d3FmACLMEeOxrP8eZxs1Rw" name="utils"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_iGrL4CLMEeOxrP8eZxs1Rw" name="" client="_P20JMCLMEeOxrP8eZxs1Rw" supplier="_d3FmACLMEeOxrP8eZxs1Rw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_jQMYsCLMEeOxrP8eZxs1Rw" name="" client="_P20JMCLMEeOxrP8eZxs1Rw" supplier="_SyDyUCLMEeOxrP8eZxs1Rw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_2CSlwCLMEeOxrP8eZxs1Rw" name="" client="_VdYJECLMEeOxrP8eZxs1Rw" supplier="_P20JMCLMEeOxrP8eZxs1Rw"/>
+</uml:Model>

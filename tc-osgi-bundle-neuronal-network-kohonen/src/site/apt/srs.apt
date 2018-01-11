@@ -1,0 +1,31 @@
+NeuronalNetworkKohonen Specification version 0.0.1
+
+* NN MetaModel
+
+** @req SRS_BUNDLE_NN_KOHONEN_010
+
+  Le framework implemente le modele de reseau de type kohonen 
+  
+        * @version 0.0.1
+        
+        * @depend SRS_BUNDLE_NN_METAMODEL_030
+        
+        * @track SRS_NEURONAL_FRAMEWORK_010
+        
+** @req SRS_BUNDLE_NN_KOHONEN_020
+
+  Le framework implemente le modele d'apprentissage de type kohonen 
+  
+        * @version 0.0.1
+        
+        * @depend SRS_BUNDLE_NN_METAMODEL_060
+        
+        * @track SRS_NEURONAL_FRAMEWORK_010
+        
+** @req SRS_BUNDLE_NN_KOHONEN_020
+
+  Le framework fourni une ihm permettant la visualisation des cartes de kohonen 
+  
+        * @version 0.0.1
+        
+        * @track SRS_NEURONAL_FRAMEWORK_010

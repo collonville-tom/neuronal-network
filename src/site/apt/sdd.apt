@@ -1,0 +1,29 @@
+Neuronal Network Specification version 0.0.1
+
+* Composants
+
+[model/model.png]
+
+** @req SDD_NEURONAL_FRAMEWORK_010
+
+  Le projet definit un composant structurant les elements de base a un reseau de neurones
+  
+        * @version 0.0.1
+        
+        * @track SDD_NEURONAL_FRAMEWORK_010
+        
+** @req SDD_NEURONAL_FRAMEWORK_020
+
+  Le projet definit un composant structurant des reseaux de neuronnes de type classique
+  
+        * @version 0.0.1
+        
+        * @track SDD_NEURONAL_FRAMEWORK_010
+        
+** @req SDD_NEURONAL_FRAMEWORK_030
+
+  Le projet definit un composant structurant des reseaux de neuronnes de type de kohonen
+  
+        * @version 0.0.1
+        
+        * @track SDD_NEURONAL_FRAMEWORK_010

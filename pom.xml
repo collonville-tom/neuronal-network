@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>tc-osgi-neuronal-network</artifactId>
+  <name>${project.artifactId}-${project.version}</name>
+  <packaging>pom</packaging>
+  <version>0.1.0-SNAPSHOT</version>
+  
+    <parent>
+        <groupId>org.tc</groupId>
+        <artifactId>tc-osgi-parent</artifactId>
+        <version>0.6.1-SNAPSHOT</version>
+        <relativePath>../tc-osgi-parent</relativePath>
+    </parent>
+
+  <modules>
+  	<module>tc-osgi-bundle-neuronal-network-metamodel-interfaces</module>
+	<module>tc-osgi-bundle-neuronal-network-core-interfaces</module>
+	<module>tc-osgi-bundle-neuronal-network-kohonen-interfaces</module>
+	<module>tc-osgi-bundle-neuronal-network-metamodel</module>
+	<module>tc-osgi-bundle-neuronal-network-core</module>
+	<module>tc-osgi-bundle-neuronal-network-kohonen</module>
+   </modules>
+  
+ 
+  <description>Framework de manipulation de reseaux de neuronne</description>
+</project>

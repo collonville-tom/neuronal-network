@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_RjjIICSKEeO-9NrVUA-kgA" name="model">
+  <packagedElement xmi:type="uml:Class" xmi:id="_SPm84CSKEeO-9NrVUA-kgA" name="InputFunction"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_TYnMUCSKEeO-9NrVUA-kgA" name="Sum">
+    <generalization xmi:id="_UvEB4CSKEeO-9NrVUA-kgA" general="_SPm84CSKEeO-9NrVUA-kgA"/>
+  </packagedElement>
+</uml:Model>

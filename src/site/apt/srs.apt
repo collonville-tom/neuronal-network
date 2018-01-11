@@ -1,0 +1,10 @@
+Neuronal Network Specification version 0.0.1
+
+* Composants
+
+** @req SRS_NEURONAL_FRAMEWORK_010
+
+  Le projet permet de construire des reseau de neuronnes
+  
+        * @version 0.0.1
+        

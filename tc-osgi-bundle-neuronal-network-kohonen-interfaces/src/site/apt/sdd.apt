@@ -1,0 +1,15 @@
+NeuronalNetworkKohonen Specification version 0.0.1
+
+* NN Kohonen
+
+** @req SDD_BUNDLE_NN_KOHONEN_010
+
+  Le framework implemente un pattern MVC pour representer les cartes auto-organisatrice de kohonen tel que le diagramme suivant le propose 
+  
+        * @version 0.0.1
+        
+        * @track SRS_BUNDLE_NN_CORE_010, SRS_BUNDLE_NN_CORE_020, SRS_BUNDLE_NN_CORE_030
+
+=====================
+
+[model/model.png] Model des carte auto-organisatrices de kohonen

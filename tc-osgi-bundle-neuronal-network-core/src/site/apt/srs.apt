@@ -1,0 +1,35 @@
+NeuronalNetworkCore Specification version 0.0.1
+
+* NN CORE
+
+** @req SRS_BUNDLE_NN_CORE_010
+
+  Le framework implemente les fonctions d'activations standard (limiter, lineaire, symetrique, etc..) 
+  
+        * @version 0.0.1
+        
+        * @depend SRS_BUNDLE_NN_METAMODEL_020
+        
+** @req SRS_BUNDLE_NN_CORE_020
+
+  Le framework implemente la fonction d'entrée sum 
+  
+        * @version 0.0.1
+        
+        * @depend SRS_BUNDLE_NN_METAMODEL_040
+        
+** @req SRS_BUNDLE_NN_CORE_030
+
+  Le framework implemente les reseaux recurrent et de propagation recurrent  
+  
+        * @version 0.0.1
+        
+        * @depend SRS_BUNDLE_NN_METAMODEL_030
+        
+** @req SRS_BUNDLE_NN_CORE_040
+
+  Le framework implemente des fonctions d'apprentissage de type lineaire degressive, de type perceptron mono couche et de voisinage  
+  
+        * @version 0.0.1
+        
+        * @depend SRS_BUNDLE_NN_METAMODEL_060

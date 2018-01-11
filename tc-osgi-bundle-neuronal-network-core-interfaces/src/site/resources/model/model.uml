@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_iG-zQCLfEeOxia4aUACItg" name="model">
+  <packagedElement xmi:type="uml:Class" xmi:id="_Zy99cCSGEeO-9NrVUA-kgA" name="ActivationFunction"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_i3f5ACSGEeO-9NrVUA-kgA" name="Limiter">
+    <generalization xmi:id="_2ZSdoCSGEeO-9NrVUA-kgA" general="_Zy99cCSGEeO-9NrVUA-kgA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_kk_8oCSGEeO-9NrVUA-kgA" name="Linear">
+    <generalization xmi:id="_3AUocCSGEeO-9NrVUA-kgA" general="_Zy99cCSGEeO-9NrVUA-kgA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_nGwHsCSGEeO-9NrVUA-kgA" name="PositiveLinear">
+    <generalization xmi:id="_3fcNYCSGEeO-9NrVUA-kgA" general="_Zy99cCSGEeO-9NrVUA-kgA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tJYYgCSGEeO-9NrVUA-kgA" name="SymetricLimiter">
+    <generalization xmi:id="_4HxYsCSGEeO-9NrVUA-kgA" general="_i3f5ACSGEeO-9NrVUA-kgA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_vRLygCSGEeO-9NrVUA-kgA" name="LinearLimiter">
+    <generalization xmi:id="_4nBggCSGEeO-9NrVUA-kgA" general="_tJYYgCSGEeO-9NrVUA-kgA"/>
+  </packagedElement>
+</uml:Model>

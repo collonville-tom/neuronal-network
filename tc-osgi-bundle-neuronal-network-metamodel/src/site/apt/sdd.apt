@@ -1,0 +1,55 @@
+NeuronalNetworkMetamodel Specification version 0.0.1
+
+* NN MetaModel
+
+** @req SDD_BUNDLE_NN_METAMODEL_010
+
+  Le framework implemente un meta-modele pour construire des reseaux generique conforme au diagrammes  suivant
+  
+        * @version 0.0.1
+        
+        * @track SRS_BUNDLE_NN_METAMODEL_010, SRS_BUNDLE_NN_METAMODEL_020, SRS_BUNDLE_NN_METAMODEL_030, SRS_BUNDLE_NN_METAMODEL_040, SRS_BUNDLE_NN_METAMODEL_050, SRS_BUNDLE_NN_METAMODEL_060
+
+=====================
+        
+[model/mm.png] Noyau du reseau de neuronne
+
+** @req SDD_BUNDLE_NN_METAMODEL_020
+
+  Le framework implemente des reseau unidirectionnel  
+  
+        * @version 0.0.1
+        
+        * @track SRS_BUNDLE_NN_METAMODEL_030
+        
+** @req SDD_BUNDLE_NN_METAMODEL_030
+
+  Le framework implemente une methode d'apprentissage par defaut de type NoLearning 
+  
+        * @version 0.0.1
+        
+        * @track SRS_BUNDLE_NN_METAMODEL_060
+        
+** @req SDD_BUNDLE_NN_METAMODEL_040
+
+  Le framework implemente une fonction d'entrée de type no input 
+  
+        * @version 0.0.1
+        
+        * @track SRS_BUNDLE_NN_METAMODEL_040
+        
+** @req SDD_BUNDLE_NN_METAMODEL_050
+
+  Le framework implemente une factory de neuronne 
+  
+        * @version 0.0.1
+        
+        * @track SRS_BUNDLE_NN_METAMODEL_010
+        
+** @req SDD_BUNDLE_NN_METAMODEL_060
+
+  Le framework implemente une fonction d'activation de type NoActivationFunction 
+  
+        * @version 0.0.1
+        
+        * @track SRS_BUNDLE_NN_METAMODEL_020

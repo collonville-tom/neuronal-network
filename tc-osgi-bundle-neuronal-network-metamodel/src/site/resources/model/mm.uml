@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_EG0V0CLgEeOxia4aUACItg" name="model">
+  <packagedElement xmi:type="uml:Class" xmi:id="_JXrLcCLgEeOxia4aUACItg" name="Neurone">
+    <ownedAttribute xmi:id="_nonk8CLhEeOxia4aUACItg" name="ins, out" type="_PuHJECLgEeOxia4aUACItg" association="_noqoQCLhEeOxia4aUACItg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nonk8SLhEeOxia4aUACItg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nonk8iLhEeOxia4aUACItg" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_3NHNkCLhEeOxia4aUACItg" name="neuronalEngine" type="_K8jekCLgEeOxia4aUACItg" association="_3NMtICLhEeOxia4aUACItg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3NHNkSLhEeOxia4aUACItg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3NHNkiLhEeOxia4aUACItg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Fp5nQCLiEeOxia4aUACItg" name="biais" type="_OWvtgCLgEeOxia4aUACItg" association="_Fp_G0CLiEeOxia4aUACItg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Fp5nQSLiEeOxia4aUACItg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Fp5nQiLiEeOxia4aUACItg" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_K8jekCLgEeOxia4aUACItg" name="NeuronalEngine">
+    <ownedAttribute xmi:id="_4HsmgCLhEeOxia4aUACItg" name="inputFunction" type="_YAJ3wCLgEeOxia4aUACItg" association="_4HytICLhEeOxia4aUACItg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4HsmgSLhEeOxia4aUACItg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4HsmgiLhEeOxia4aUACItg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_4rB9ECLhEeOxia4aUACItg" name="activationFunction" type="_ZOYlcCLgEeOxia4aUACItg" association="_4rJR0CLhEeOxia4aUACItg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4rB9ESLhEeOxia4aUACItg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4rB9EiLhEeOxia4aUACItg" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_OWvtgCLgEeOxia4aUACItg" name="Biais"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_PuHJECLgEeOxia4aUACItg" name="Dendrite">
+    <ownedAttribute xmi:id="_HXa5ACLiEeOxia4aUACItg" name="signal" type="_Ui5GsCLgEeOxia4aUACItg" association="_HXg_oCLiEeOxia4aUACItg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HXa5ASLiEeOxia4aUACItg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HXa5AiLiEeOxia4aUACItg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_H0AuYCLiEeOxia4aUACItg" name="poid" type="_RWhRUCLgEeOxia4aUACItg" association="_H0G1ACLiEeOxia4aUACItg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_H0AuYSLiEeOxia4aUACItg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_H0AuYiLiEeOxia4aUACItg" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_RWhRUCLgEeOxia4aUACItg" name="Poid"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_TcbN4CLgEeOxia4aUACItg" name="Synapse">
+    <ownedAttribute xmi:id="_zMSR4CLgEeOxia4aUACItg" name="in, out" type="_PuHJECLgEeOxia4aUACItg" association="_zMV8QCLgEeOxia4aUACItg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zMSR4SLgEeOxia4aUACItg" value="2"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zMSR4iLgEeOxia4aUACItg" value="2"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Ui5GsCLgEeOxia4aUACItg" name="Signal"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_VnYpkCLgEeOxia4aUACItg" name="ReseauSynaptique">
+    <ownedAttribute xmi:id="_b9KDYCLhEeOxia4aUACItg" name="synapses" type="_TcbN4CLgEeOxia4aUACItg" association="_b9R_MCLhEeOxia4aUACItg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_b9KDYSLhEeOxia4aUACItg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_b9KDYiLhEeOxia4aUACItg" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_YAJ3wCLgEeOxia4aUACItg" name="InputFunction"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ZOYlcCLgEeOxia4aUACItg" name="ActivationFunction"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_zMV8QCLgEeOxia4aUACItg" name="" memberEnd="_zMV8QSLgEeOxia4aUACItg _zMSR4CLgEeOxia4aUACItg">
+    <ownedEnd xmi:id="_zMV8QSLgEeOxia4aUACItg" name="synapse" type="_TcbN4CLgEeOxia4aUACItg" association="_zMV8QCLgEeOxia4aUACItg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zMV8QiLgEeOxia4aUACItg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zMV8QyLgEeOxia4aUACItg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_b9R_MCLhEeOxia4aUACItg" name="" memberEnd="_b9R_MSLhEeOxia4aUACItg _b9KDYCLhEeOxia4aUACItg">
+    <ownedEnd xmi:id="_b9R_MSLhEeOxia4aUACItg" name="reseauSynaptique" type="_VnYpkCLgEeOxia4aUACItg" association="_b9R_MCLhEeOxia4aUACItg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_b9R_MiLhEeOxia4aUACItg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_b9R_MyLhEeOxia4aUACItg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_noqoQCLhEeOxia4aUACItg" name="" memberEnd="_noqoQSLhEeOxia4aUACItg _nonk8CLhEeOxia4aUACItg">
+    <ownedEnd xmi:id="_noqoQSLhEeOxia4aUACItg" name="neurone" type="_JXrLcCLgEeOxia4aUACItg" association="_noqoQCLhEeOxia4aUACItg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_noqoQiLhEeOxia4aUACItg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_noqoQyLhEeOxia4aUACItg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_3NMtICLhEeOxia4aUACItg" name="" memberEnd="_3NMtISLhEeOxia4aUACItg _3NHNkCLhEeOxia4aUACItg">
+    <ownedEnd xmi:id="_3NMtISLhEeOxia4aUACItg" name="neurone" type="_JXrLcCLgEeOxia4aUACItg" association="_3NMtICLhEeOxia4aUACItg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3NMtIiLhEeOxia4aUACItg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3NMtIyLhEeOxia4aUACItg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4HytICLhEeOxia4aUACItg" name="" memberEnd="_4HytISLhEeOxia4aUACItg _4HsmgCLhEeOxia4aUACItg">
+    <ownedEnd xmi:id="_4HytISLhEeOxia4aUACItg" name="neuronalEngine" type="_K8jekCLgEeOxia4aUACItg" association="_4HytICLhEeOxia4aUACItg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4HytIiLhEeOxia4aUACItg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4HytIyLhEeOxia4aUACItg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4rJR0CLhEeOxia4aUACItg" name="" memberEnd="_4rJR0SLhEeOxia4aUACItg _4rB9ECLhEeOxia4aUACItg">
+    <ownedEnd xmi:id="_4rJR0SLhEeOxia4aUACItg" name="neuronalEngine" type="_K8jekCLgEeOxia4aUACItg" association="_4rJR0CLhEeOxia4aUACItg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4rJR0iLhEeOxia4aUACItg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4rJR0yLhEeOxia4aUACItg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Fp_G0CLiEeOxia4aUACItg" name="" memberEnd="_Fp_G0SLiEeOxia4aUACItg _Fp5nQCLiEeOxia4aUACItg">
+    <ownedEnd xmi:id="_Fp_G0SLiEeOxia4aUACItg" name="neurone" type="_JXrLcCLgEeOxia4aUACItg" association="_Fp_G0CLiEeOxia4aUACItg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Fp_G0iLiEeOxia4aUACItg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Fp_G0yLiEeOxia4aUACItg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_HXg_oCLiEeOxia4aUACItg" name="" memberEnd="_HXg_oSLiEeOxia4aUACItg _HXa5ACLiEeOxia4aUACItg">
+    <ownedEnd xmi:id="_HXg_oSLiEeOxia4aUACItg" name="dendrite" type="_PuHJECLgEeOxia4aUACItg" association="_HXg_oCLiEeOxia4aUACItg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HXg_oiLiEeOxia4aUACItg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HXg_oyLiEeOxia4aUACItg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_H0G1ACLiEeOxia4aUACItg" name="" memberEnd="_H0G1ASLiEeOxia4aUACItg _H0AuYCLiEeOxia4aUACItg">
+    <ownedEnd xmi:id="_H0G1ASLiEeOxia4aUACItg" name="dendrite" type="_PuHJECLgEeOxia4aUACItg" association="_H0G1ACLiEeOxia4aUACItg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_H0G1AiLiEeOxia4aUACItg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_H0G1AyLiEeOxia4aUACItg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_T1K9sCLjEeOxia4aUACItg" name="Layer">
+    <ownedAttribute xmi:id="_V4zCUCLjEeOxia4aUACItg" name="in, out" type="_VnYpkCLgEeOxia4aUACItg" association="_V43TwCLjEeOxia4aUACItg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_V4zCUSLjEeOxia4aUACItg" value="2"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_V4zCUiLjEeOxia4aUACItg" value="2"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_bLwwwCLjEeOxia4aUACItg" name="neurones" type="_JXrLcCLgEeOxia4aUACItg" association="_bL1CMCLjEeOxia4aUACItg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bLwwwSLjEeOxia4aUACItg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bLwwwiLjEeOxia4aUACItg" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_iMDjsCLjEeOxia4aUACItg" name="learningMethod" type="_hFzGQCLjEeOxia4aUACItg" association="_iMGnACLjEeOxia4aUACItg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_iMDjsSLjEeOxia4aUACItg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_iMDjsiLjEeOxia4aUACItg" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_V43TwCLjEeOxia4aUACItg" name="" memberEnd="_V43TwSLjEeOxia4aUACItg _V4zCUCLjEeOxia4aUACItg">
+    <ownedEnd xmi:id="_V43TwSLjEeOxia4aUACItg" name="layer" type="_T1K9sCLjEeOxia4aUACItg" association="_V43TwCLjEeOxia4aUACItg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_V43TwiLjEeOxia4aUACItg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_V43TwyLjEeOxia4aUACItg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_bL1CMCLjEeOxia4aUACItg" name="" visibility="package" memberEnd="_bL1CMSLjEeOxia4aUACItg _bLwwwCLjEeOxia4aUACItg">
+    <ownedEnd xmi:id="_bL1CMSLjEeOxia4aUACItg" name="layer" type="_T1K9sCLjEeOxia4aUACItg" association="_bL1CMCLjEeOxia4aUACItg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bL1CMiLjEeOxia4aUACItg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bL1CMyLjEeOxia4aUACItg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_hFzGQCLjEeOxia4aUACItg" name="LearningMethod"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_iMGnACLjEeOxia4aUACItg" name="" memberEnd="_iMGnASLjEeOxia4aUACItg _iMDjsCLjEeOxia4aUACItg">
+    <ownedEnd xmi:id="_iMGnASLjEeOxia4aUACItg" name="layer" type="_T1K9sCLjEeOxia4aUACItg" association="_iMGnACLjEeOxia4aUACItg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_iMGnAiLjEeOxia4aUACItg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_iMGnAyLjEeOxia4aUACItg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>

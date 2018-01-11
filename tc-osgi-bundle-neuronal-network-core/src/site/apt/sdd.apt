@@ -1,0 +1,53 @@
+NeuronalNetworkCore Specification version 0.0.1
+
+* NN Core
+
+** @req SDD_BUNDLE_NN_CORE_010
+
+  Le framework implemente les fonctions d'activation Limiter, Linear, LinearLimiter, PositiveLimiter, SymetricLimiter tel que le diagramme suivant le propose.
+  
+        * @version 0.0.1
+        
+        * @track SRS_BUNDLE_NN_CORE_010
+
+=====================
+
+[model/model.png] Fonctions d'activations
+
+** @req SDD_BUNDLE_NN_CORE_020
+
+  Le framework implemente une factory de couche neuronnal LayerFactory pour produire des reseau unidirectionnels, des ReseauRecurrent et des reseau a propagation recurente
+  
+        * @version 0.0.1
+        
+        * @track SRS_BUNDLE_NN_CORE_030
+
+=====================
+
+[model/layer.png] Factory et reseau
+
+** @req SDD_BUNDLE_NN_CORE_030
+
+  Le framework implemente une fonction d'entrée de type somme par heritage tel que dans le diagramme suivant.
+  
+        * @version 0.0.1
+        
+        * @track SRS_BUNDLE_NN_CORE_020
+
+=====================
+
+[model/InputFunction.png] Fonction d'entrée Somme
+
+** @req SDD_BUNDLE_NN_CORE_040
+
+  Le framework implemente les fonctions d'apprentissage de type linear degressive, perceptron mon couche.
+  
+        * @version 0.0.1
+        
+        * @track SRS_BUNDLE_NN_CORE_040
+
+=====================
+
+[model/Learn.png] Fonction d'apprentissage
+
+ 

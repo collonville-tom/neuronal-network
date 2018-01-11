@@ -1,0 +1,51 @@
+NeuronalNetworkMetamodel Specification version 0.0.1
+
+* NN MetaModel
+
+** @req SRS_BUNDLE_NN_METAMODEL_010
+
+  Le framework implemente un modele pour construire des neuronnes 
+  
+        * @version 0.0.1
+        
+        * @track SRS_NEURONAL_FRAMEWORK_010
+        
+** @req SRS_BUNDLE_NN_METAMODEL_020
+
+  Le framework implemente un modele pour construire des fonctions d'activation 
+  
+        * @version 0.0.1
+        
+        * @track SRS_NEURONAL_FRAMEWORK_010
+                
+** @req SRS_BUNDLE_NN_METAMODEL_030
+
+  Le framework implemente un modele pour construire des reseaux synaptiques 
+  
+        * @version 0.0.1
+        
+        * @track SRS_NEURONAL_FRAMEWORK_010
+        
+** @req SRS_BUNDLE_NN_METAMODEL_040
+
+  Le framework implemente un modele pour construire des fonctions d'entrées pour les neuronnes 
+  
+        * @version 0.0.1
+        
+        * @track SRS_NEURONAL_FRAMEWORK_010
+        
+** @req SRS_BUNDLE_NN_METAMODEL_050
+
+  Le framework implemente un modele pour construire des signaux d'entrées pondérées par les biais et poids des dendrites 
+  
+        * @version 0.0.1
+        
+        * @track SRS_NEURONAL_FRAMEWORK_010
+        
+** @req SRS_BUNDLE_NN_METAMODEL_060
+
+  Le framework permet la definition de fonction d'apprentissage (de base no learning) 
+  
+        * @version 0.0.1
+        
+        * @track SRS_NEURONAL_FRAMEWORK_010

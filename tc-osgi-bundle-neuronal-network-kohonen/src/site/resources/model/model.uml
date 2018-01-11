@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_yUp_ACSQEeO-9NrVUA-kgA" name="model">
+  <packagedElement xmi:type="uml:Class" xmi:id="_6gZRYCSQEeO-9NrVUA-kgA" name="KohonenFactory">
+    <ownedAttribute xmi:id="_9SmTQCSQEeO-9NrVUA-kgA" name="kohonen" type="_8MDh8CSQEeO-9NrVUA-kgA" aggregation="shared" association="_9SsZ4CSQEeO-9NrVUA-kgA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9SmTQSSQEeO-9NrVUA-kgA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9SmTQiSQEeO-9NrVUA-kgA" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_8MDh8CSQEeO-9NrVUA-kgA" name="Kohonen">
+    <generalization xmi:id="_k5oH0CSREeO-9NrVUA-kgA" general="_hse2YCSREeO-9NrVUA-kgA"/>
+    <generalization xmi:id="_Dvz8YCSTEeO-9NrVUA-kgA" general="_12dm8CSSEeO-9NrVUA-kgA"/>
+    <interfaceRealization xmi:id="_pxFmACSREeO-9NrVUA-kgA" name="InterfaceRealization1" client="_8MDh8CSQEeO-9NrVUA-kgA" supplier="_oHGJYCSREeO-9NrVUA-kgA" contract="_oHGJYCSREeO-9NrVUA-kgA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9SsZ4CSQEeO-9NrVUA-kgA" name="" memberEnd="_9SsZ4SSQEeO-9NrVUA-kgA _9SmTQCSQEeO-9NrVUA-kgA">
+    <ownedEnd xmi:id="_9SsZ4SSQEeO-9NrVUA-kgA" name="kohonenFactory" type="_6gZRYCSQEeO-9NrVUA-kgA" association="_9SsZ4CSQEeO-9NrVUA-kgA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9SsZ4iSQEeO-9NrVUA-kgA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9SsZ4ySQEeO-9NrVUA-kgA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G7YycCSREeO-9NrVUA-kgA" name="LearningMethod"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_H1uTwCSREeO-9NrVUA-kgA" name="KohonenLearning">
+    <generalization xmi:id="_J4HpUCSREeO-9NrVUA-kgA" general="_G7YycCSREeO-9NrVUA-kgA"/>
+    <ownedAttribute xmi:id="_amnm8CSREeO-9NrVUA-kgA" name="voisinageFunction" type="_YVw-oCSREeO-9NrVUA-kgA" aggregation="composite" association="_amttkCSREeO-9NrVUA-kgA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_amnm8SSREeO-9NrVUA-kgA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_amnm8iSREeO-9NrVUA-kgA" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_YVw-oCSREeO-9NrVUA-kgA" name="VoisinageFunction"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_amttkCSREeO-9NrVUA-kgA" name="" memberEnd="_amttkSSREeO-9NrVUA-kgA _amnm8CSREeO-9NrVUA-kgA">
+    <ownedEnd xmi:id="_amttkSSREeO-9NrVUA-kgA" name="kohonenLearning" type="_H1uTwCSREeO-9NrVUA-kgA" association="_amttkCSREeO-9NrVUA-kgA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_amttkiSREeO-9NrVUA-kgA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_amttkySREeO-9NrVUA-kgA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_hse2YCSREeO-9NrVUA-kgA" name="NeronnalNetwork"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_oHGJYCSREeO-9NrVUA-kgA" name="IVisitable"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tulWUCSREeO-9NrVUA-kgA" name="KohonenDraftman">
+    <generalization xmi:id="_wAThUCSREeO-9NrVUA-kgA" general="_uWY9MCSREeO-9NrVUA-kgA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_uWY9MCSREeO-9NrVUA-kgA" name="Draftman"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_zdfZ4CSREeO-9NrVUA-kgA" name="NeuronalNetworkFrame">
+    <ownedAttribute xmi:id="_5URnECSREeO-9NrVUA-kgA" name="view" type="_21nMQCSREeO-9NrVUA-kgA" aggregation="composite" association="_5UXGoCSREeO-9NrVUA-kgA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5URnESSREeO-9NrVUA-kgA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5URnEiSREeO-9NrVUA-kgA" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_21nMQCSREeO-9NrVUA-kgA" name="View">
+    <ownedAttribute xmi:id="__hDSYCSREeO-9NrVUA-kgA" name="controller" type="_8wAuICSREeO-9NrVUA-kgA" aggregation="shared" association="__hIx8CSREeO-9NrVUA-kgA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__hDSYSSREeO-9NrVUA-kgA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__hDSYiSREeO-9NrVUA-kgA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_HlM5kCSTEeO-9NrVUA-kgA" name="object" type="_12dm8CSSEeO-9NrVUA-kgA" aggregation="shared" association="_HlUOUCSTEeO-9NrVUA-kgA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HlM5kSSTEeO-9NrVUA-kgA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HlM5kiSTEeO-9NrVUA-kgA" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_5UXGoCSREeO-9NrVUA-kgA" name="" memberEnd="_5UXGoSSREeO-9NrVUA-kgA _5URnECSREeO-9NrVUA-kgA">
+    <ownedEnd xmi:id="_5UXGoSSREeO-9NrVUA-kgA" name="neuronalNetworkFrame" type="_zdfZ4CSREeO-9NrVUA-kgA" association="_5UXGoCSREeO-9NrVUA-kgA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5UXGoiSREeO-9NrVUA-kgA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5UXGoySREeO-9NrVUA-kgA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_8wAuICSREeO-9NrVUA-kgA" name="Controller">
+    <ownedAttribute xmi:id="_ZB2zICSSEeO-9NrVUA-kgA" name="view" type="_21nMQCSREeO-9NrVUA-kgA" aggregation="shared" association="_ZB9g0CSSEeO-9NrVUA-kgA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZB2zISSSEeO-9NrVUA-kgA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZB2zIiSSEeO-9NrVUA-kgA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_FdzvQCSTEeO-9NrVUA-kgA" name="object" type="_12dm8CSSEeO-9NrVUA-kgA" aggregation="shared" association="_Fd7EACSTEeO-9NrVUA-kgA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FdzvQSSTEeO-9NrVUA-kgA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FdzvQiSTEeO-9NrVUA-kgA" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="__hIx8CSREeO-9NrVUA-kgA" name="" memberEnd="__hIx8SSREeO-9NrVUA-kgA __hDSYCSREeO-9NrVUA-kgA">
+    <ownedEnd xmi:id="__hIx8SSREeO-9NrVUA-kgA" name="view" type="_21nMQCSREeO-9NrVUA-kgA" association="__hIx8CSREeO-9NrVUA-kgA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__hIx8iSREeO-9NrVUA-kgA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__hIx8ySREeO-9NrVUA-kgA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_EwzUwCSSEeO-9NrVUA-kgA" name="KohonenView">
+    <generalization xmi:id="_JWZm4CSSEeO-9NrVUA-kgA" general="_21nMQCSREeO-9NrVUA-kgA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ZB9g0CSSEeO-9NrVUA-kgA" name="" memberEnd="_ZB9g0SSSEeO-9NrVUA-kgA _ZB2zICSSEeO-9NrVUA-kgA">
+    <ownedEnd xmi:id="_ZB9g0SSSEeO-9NrVUA-kgA" name="controller" type="_8wAuICSREeO-9NrVUA-kgA" association="_ZB9g0CSSEeO-9NrVUA-kgA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZB9g0iSSEeO-9NrVUA-kgA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZB9g0ySSEeO-9NrVUA-kgA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_12dm8CSSEeO-9NrVUA-kgA" name="Object"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Fd7EACSTEeO-9NrVUA-kgA" name="" memberEnd="_Fd7EASSTEeO-9NrVUA-kgA _FdzvQCSTEeO-9NrVUA-kgA">
+    <ownedEnd xmi:id="_Fd7EASSTEeO-9NrVUA-kgA" name="controller" type="_8wAuICSREeO-9NrVUA-kgA" association="_Fd7EACSTEeO-9NrVUA-kgA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Fd7EAiSTEeO-9NrVUA-kgA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Fd7EAySTEeO-9NrVUA-kgA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_HlUOUCSTEeO-9NrVUA-kgA" name="" memberEnd="_HlUOUSSTEeO-9NrVUA-kgA _HlM5kCSTEeO-9NrVUA-kgA">
+    <ownedEnd xmi:id="_HlUOUSSTEeO-9NrVUA-kgA" name="view" type="_21nMQCSREeO-9NrVUA-kgA" association="_HlUOUCSTEeO-9NrVUA-kgA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HlUOUiSTEeO-9NrVUA-kgA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HlUOUySTEeO-9NrVUA-kgA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_8s3CkCSIEeO-9NrVUA-kgA" name="model">
+  <packagedElement xmi:type="uml:Class" xmi:id="_SKlIYCSJEeO-9NrVUA-kgA" name="LayerFactory">
+    <ownedAttribute xmi:id="_n8f8kCSJEeO-9NrVUA-kgA" name="unidirectionnalLayer" type="_UfACECSJEeO-9NrVUA-kgA" aggregation="shared" association="_n8lcICSJEeO-9NrVUA-kgA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_n8f8kSSJEeO-9NrVUA-kgA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_n8f8kiSJEeO-9NrVUA-kgA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_y4cswCSJEeO-9NrVUA-kgA" name="reseauNeuronal" type="_ecjQUCSJEeO-9NrVUA-kgA" aggregation="shared" association="_y4g-MCSJEeO-9NrVUA-kgA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_y4cswSSJEeO-9NrVUA-kgA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_y4cswiSJEeO-9NrVUA-kgA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_zjyv0CSJEeO-9NrVUA-kgA" name="recurentLayer" type="_YI4S0CSJEeO-9NrVUA-kgA" aggregation="shared" association="_zj4PYCSJEeO-9NrVUA-kgA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zjyv0SSJEeO-9NrVUA-kgA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zjyv0iSJEeO-9NrVUA-kgA" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_UfACECSJEeO-9NrVUA-kgA" name="UnidirectionnalLayer">
+    <generalization xmi:id="_mFZ4ECSJEeO-9NrVUA-kgA" general="_iPevYCSJEeO-9NrVUA-kgA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_YI4S0CSJEeO-9NrVUA-kgA" name="RecurentLayer">
+    <generalization xmi:id="_mqgwQCSJEeO-9NrVUA-kgA" general="_ecjQUCSJEeO-9NrVUA-kgA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ecjQUCSJEeO-9NrVUA-kgA" name="ReseauNeuronal"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_iPevYCSJEeO-9NrVUA-kgA" name="Layer"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_n8lcICSJEeO-9NrVUA-kgA" name="" visibility="package" memberEnd="_n8lcISSJEeO-9NrVUA-kgA _n8f8kCSJEeO-9NrVUA-kgA">
+    <ownedEnd xmi:id="_n8lcISSJEeO-9NrVUA-kgA" name="layerFactory" type="_SKlIYCSJEeO-9NrVUA-kgA" association="_n8lcICSJEeO-9NrVUA-kgA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_n8lcIiSJEeO-9NrVUA-kgA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_n8lcIySJEeO-9NrVUA-kgA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_y4g-MCSJEeO-9NrVUA-kgA" name="" memberEnd="_y4g-MSSJEeO-9NrVUA-kgA _y4cswCSJEeO-9NrVUA-kgA">
+    <ownedEnd xmi:id="_y4g-MSSJEeO-9NrVUA-kgA" name="layerFactory" type="_SKlIYCSJEeO-9NrVUA-kgA" association="_y4g-MCSJEeO-9NrVUA-kgA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_y4g-MiSJEeO-9NrVUA-kgA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_y4g-MySJEeO-9NrVUA-kgA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_zj4PYCSJEeO-9NrVUA-kgA" name="" memberEnd="_zj4PYSSJEeO-9NrVUA-kgA _zjyv0CSJEeO-9NrVUA-kgA">
+    <ownedEnd xmi:id="_zj4PYSSJEeO-9NrVUA-kgA" name="layerFactory" type="_SKlIYCSJEeO-9NrVUA-kgA" association="_zj4PYCSJEeO-9NrVUA-kgA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zj4PYiSJEeO-9NrVUA-kgA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zj4PYySJEeO-9NrVUA-kgA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>

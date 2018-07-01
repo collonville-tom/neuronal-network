@@ -17,6 +17,8 @@ import org.tc.osgi.bundle.neuronalnetwork.metamodel.mm.layers.UnidirectionnalLay
  */
 public class NeuroneTest {
 
+
+	
     /**
      * reseauBase.
      * @throws Exception
@@ -37,7 +39,7 @@ public class NeuroneTest {
         signalInput.add(new Signal<Double>(new Double(1)));
         signalInput.add(new Signal<Double>(new Double(1)));
         // Creation des couches de neurones
-        final Layer<Double> layer1 = new UnidirectionnalLayer<Double>();
+        
 
         final Neurone<Double> n = new Neurone<Double>();
         n.setBiais(new Biais<Double>());
@@ -49,6 +51,7 @@ public class NeuroneTest {
         }
         n.setInputDendrites(inputDendrites);
 
+        final Layer<Double> layer1 = new UnidirectionnalLayer<Double>();
         layer1.getNeurones().add(n);
 
         // creation du reseau

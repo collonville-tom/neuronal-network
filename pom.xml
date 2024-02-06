@@ -4,21 +4,21 @@
   <artifactId>tc-neuronal-network-module</artifactId>
   <name>${project.artifactId}-${project.version}</name>
   <packaging>pom</packaging>
-  <version>0.1.0-SNAPSHOT</version>
+  <version>0.11.0-SNAPSHOT</version>
   
   <parent>
     <groupId>org.tc.parent</groupId>
     <artifactId>tc-parent</artifactId>
-    <version>0.7.0</version>
+    <version>0.11.0-SNAPSHOT</version>
   </parent>
 
   <modules>
   	<module>tc-osgi-bundle-neuronal-network-metamodel-interfaces</module>
 	<module>tc-osgi-bundle-neuronal-network-core-interfaces</module>
-<!-- 	<module>tc-osgi-bundle-neuronal-network-kohonen-interfaces</module> -->
+ 	<module>tc-osgi-bundle-neuronal-network-kohonen-interfaces</module> 
 	<module>tc-osgi-bundle-neuronal-network-metamodel</module>
 	<module>tc-osgi-bundle-neuronal-network-core</module>
-<!-- 	<module>tc-osgi-bundle-neuronal-network-kohonen</module> -->
+ 	<module>tc-osgi-bundle-neuronal-network-kohonen</module> 
    </modules>
   
  

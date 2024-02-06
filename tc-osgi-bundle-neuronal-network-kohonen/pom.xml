@@ -9,9 +9,9 @@
 	<version>${build}${snapshot}</version>
 
 	<properties>
-		<build>0.1.0</build>
+		<build>0.11.0</build>
 		<snapshot>-SNAPSHOT</snapshot>
-		<neuronal.network.core.interfaces.version>0.1.0</neuronal.network.core.interfaces.version>
+		<neuronal.network.core.interfaces.version>0.11.0</neuronal.network.core.interfaces.version>
 	</properties>
 
 	<dependencies>
@@ -42,7 +42,7 @@
 	<parent>
 		<groupId>org.tc.parent</groupId>
 		<artifactId>tc-osgi-parent</artifactId>
-		<version>0.7.0</version>
+		<version>0.11.0-SNAPSHOT</version>
 	</parent>
 
 	<build>
